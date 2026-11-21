@@ -1,0 +1,55 @@
+@import url("../gtk-3.0/ceratopsian-palette.css");
+
+#XfceNotifyWindow {
+  color: @ceratopsian_foreground;
+  background-color: @ceratopsian_background;
+  background-image: none;
+  border: 1px solid @ceratopsian_border;
+  border-radius: 8px;
+}
+
+#XfceNotifyWindow:hover {
+  border-color: @ceratopsian_focus;
+}
+
+#XfceNotifyWindow label {
+  color: @ceratopsian_foreground;
+}
+
+#XfceNotifyWindow label#summary {
+  font-weight: bold;
+}
+
+#XfceNotifyWindow button {
+  color: @ceratopsian_foreground;
+  background-color: @ceratopsian_surface;
+  background-image: none;
+  border: 1px solid @ceratopsian_border;
+  border-radius: 4px;
+}
+
+#XfceNotifyWindow button:hover,
+#XfceNotifyWindow button:focus {
+  border-color: @ceratopsian_focus;
+}
+
+#XfceNotifyWindow button:active {
+  color: white;
+  background-color: @ceratopsian_selected;
+}
+
+#XfceNotifyWindow progressbar trough {
+  min-height: 5px;
+  background-color: @ceratopsian_surface;
+  background-image: none;
+  border-color: @ceratopsian_border;
+  border-radius: 3px;
+}
+
+#XfceNotifyWindow progressbar progress {
+  min-height: 5px;
+  background-color: @ceratopsian_focus;
+  background-image: none;
+  border-color: @ceratopsian_focus;
+  border-radius: 3px;
+}

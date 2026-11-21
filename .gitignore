@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.deb
+*.buildinfo
+*.changes
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/ceratopsian-xfce/
+/debian/*.debhelper.log
+/debian/*.substvars
+/debian/files
+/.pc/

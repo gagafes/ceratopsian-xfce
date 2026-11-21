@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ceratopsian Dark
+Type=X-GNOME-Metatheme
+Comment=Dark Xfce theme with matte blue-gray accents
+
+[X-GNOME-Metatheme]
+GtkTheme=Ceratopsian-Dark
+IconTheme=Ceratopsian-Icons
+CursorTheme=Ceratopsian-Cursors
+CursorSize=24

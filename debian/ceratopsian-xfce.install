@@ -1,0 +1,9 @@
+themes/Ceratopsian-Dark usr/share/themes
+icons/Ceratopsian-Icons usr/share/icons
+icons/Ceratopsian-Cursors usr/share/icons
+icons/Ceratopsian-Cursors-Light usr/share/icons
+wallpapers/ceratopsian-matte.* usr/share/backgrounds/ceratopsian-xfce
+wallpaper-variants/clean.* usr/share/backgrounds/ceratopsian-variants
+terminal/ceratopsian.theme usr/share/xfce4/terminal/colorschemes
+extras/Ceratopsian.colors usr/share/color-schemes
+extras/boot usr/share/ceratopsian-xfce/extras

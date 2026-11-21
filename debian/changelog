@@ -1,0 +1,8 @@
+ceratopsian-xfce (0.1.0-1) unstable; urgency=medium
+
+  * Package the Ceratopsian Dark Xfce theme.
+  * Include dark and light cursors, a terminal palette, and both wallpapers.
+  * Install the GTK and icon themes for all users.
+  * Ship the boot artwork and installer as an optional integration.
+
+ -- gagafes <344397043+gagafes@users.noreply.github.com>  Sat, 21 Nov 2026 19:05:00 +0100

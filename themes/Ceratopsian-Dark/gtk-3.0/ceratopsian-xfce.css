@@ -1,0 +1,126 @@
+@import url("ceratopsian-palette.css");
+
+/* Lock dialog from xfce4-screensaver. The overlay displays the desktop wallpaper. */
+#screen.lightdm-gtk-greeter #login_window {
+  color: @ceratopsian_foreground;
+  background-color: @ceratopsian_background;
+  background-image: none;
+  border: 1px solid @ceratopsian_border;
+  border-radius: 9px;
+  box-shadow: 0 9px 22px rgba(0, 0, 0, 0.38);
+}
+
+#screen.lightdm-gtk-greeter #panel_window {
+  color: @ceratopsian_foreground;
+  background-color: @ceratopsian_panel;
+  background-image: none;
+  border-bottom: 1px solid @ceratopsian_border;
+}
+
+#screen.lightdm-gtk-greeter #user_image_border {
+  background-color: @ceratopsian_panel;
+  border: 1px solid @ceratopsian_focus;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+#screen.lightdm-gtk-greeter #prompt_entry:focus {
+  border-color: @ceratopsian_focus;
+  box-shadow: inset 0 0 0 1px @ceratopsian_focus;
+}
+
+#screen.lightdm-gtk-greeter #login_button {
+  background-color: @ceratopsian_selected;
+  background-image: none;
+  color: white;
+  border-color: @ceratopsian_focus;
+}
+
+#screen.lightdm-gtk-greeter #login_button:hover {
+  background-color: shade(@ceratopsian_selected, 0.92);
+}
+
+#screen.lightdm-gtk-greeter #login_button:disabled {
+  background-color: @insensitive_bg_color;
+  color: @insensitive_fg_color;
+  border-color: @ceratopsian_border;
+}
+
+/* Xfwm uses this selector instead of its built-in switcher style. */
+#xfwm-tabwin {
+  padding: 6px;
+  color: @ceratopsian_foreground;
+  background-color: @ceratopsian_background;
+  border: 1px solid @ceratopsian_border;
+  border-radius: 8px;
+}
+
+#xfwm-tabwin button:checked {
+  color: white;
+  background-color: @ceratopsian_selected;
+  background-image: none;
+  border-color: @ceratopsian_focus;
+}
+
+/* Names set by the widgets are independent of the panel's plugin IDs. */
+#pulseaudio-button image,
+#xfce4-power-manager-plugin image,
+.xfce4-panel #sn-button-box image,
+.xfce4-panel #sn-button arrow,
+.xfce4-panel .launcher arrow {
+  color: @ceratopsian_icon;
+}
+
+#pulseaudio-button image:not(.recording-indicator) {
+  -gtk-icon-style: symbolic;
+  -gtk-icon-transform: scale(.65);
+}
+
+#xfce4-power-manager-plugin image {
+  -gtk-icon-style: symbolic;
+  -gtk-icon-transform: scale(.68);
+  -gtk-icon-palette: success @ceratopsian_focus, warning @warning_color, error @error_color;
+}
+
+.xfce4-panel .tasklist button image {
+  background-image: radial-gradient(circle closest-side, #38525f 94%, transparent 100%);
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -gtk-icon-transform: scale(.82);
+}
+
+.xfce4-panel #sn-button {
+  background-color: transparent;
+  background-image: radial-gradient(circle closest-side, #354954 94%, transparent 100%);
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.xfce4-panel #sn-button:hover {
+  background-color: transparent;
+  background-image: radial-gradient(circle closest-side, #486371 94%, transparent 100%);
+}
+
+.xfce4-panel #sn-button-box image {
+  opacity: .66;
+}
+
+.xfce4-panel wnck-pager {
+  background-color: #263741;
+  color: @ceratopsian_icon;
+}
+
+.xfce4-panel wnck-pager:selected {
+  background-color: #38525f;
+}
+
+.xfce4-panel wnck-pager:hover {
+  background-color: #466675;
+}
+
+#whiskermenu-window entry.search image {
+  color: @ceratopsian_icon;
+  -gtk-icon-style: symbolic;
+}

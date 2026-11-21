@@ -1,0 +1,27 @@
+Ceratopsian Dark for Xfce
+========================
+
+The package installs assets for all users. Select the pieces you want in
+your own Xfce session.
+
+  Settings > Appearance > Style          Ceratopsian Dark
+  Settings > Appearance > Icons          Ceratopsian
+  Settings > Window Manager > Style      Ceratopsian-Dark
+  Settings > Notifications > Theme        Ceratopsian-Dark
+  Settings > Mouse and Touchpad > Theme   Ceratopsian Cursors or Cursors Light
+
+In Desktop Settings, browse to /usr/share/backgrounds/ceratopsian-xfce
+for Debian 13 Matte or /usr/share/backgrounds/ceratopsian-variants for
+Clean. In Xfce Terminal's Colours preferences, select the Ceratopsian
+preset. Administrator-launched GTK apps such as Synaptic can find the
+theme in the system directories. Open a new instance to load it.
+
+Optional boot integration on Debian-family systems
+--------------------------------------------------
+
+  bash /usr/share/ceratopsian-xfce/extras/boot/install-boot-theme.sh --list
+
+To activate the selected art for GRUB and Plymouth, run the same script
+with sudo and add --variant default or --variant clean. The script saves
+a backup of the previous boot configuration and regenerates the boot
+files. The theme archive's extras guide covers Qt and LightDM.

@@ -1,0 +1,11 @@
+[Scheme]
+Name=Ceratopsian
+ColorForeground=#dcdcdc
+ColorBackground=#2c2c2c
+ColorCursor=#8eacbc
+ColorCursorUseDefault=FALSE
+ColorSelection=#e5eef2
+ColorSelectionBackground=#395a69
+ColorSelectionUseDefault=FALSE
+TabActivityColor=#8eacbc
+ColorPalette=#3f3f3f;#9cabbc;#789d9f;#acbac3;#7797aa;#8a9fba;#86adb7;#dcdcdc;#77858c;#bbcadb;#9fc1c1;#d3dfe5;#8eacbc;#a9b6ce;#add0da;#ffffff

@@ -1,0 +1,22 @@
+Source: ceratopsian-xfce
+Section: x11
+Priority: optional
+Maintainer: gagafes <344397043+gagafes@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Homepage: https://github.com/gagafes/ceratopsian-xfce
+Vcs-Git: https://github.com/gagafes/ceratopsian-xfce.git
+Vcs-Browser: https://github.com/gagafes/ceratopsian-xfce
+
+Package: ceratopsian-xfce
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Suggests: xfce4, xfce4-notifyd, xfce4-terminal, lightdm-gtk-greeter, plymouth
+Description: graphite and matte blue-grey theme for Xfce
+ Ceratopsian provides GTK 2, 3 and 4 styling, Xfwm window decorations,
+ notifications, icons, dark and light pointer themes, and a terminal palette.
+ .
+ The package also includes the Debian 13 Matte and Clean wallpapers and
+ optional GRUB, Plymouth and Qt integration files.

@@ -1,4 +1,4 @@
-# Ceratopsian Dark for Xfce
+# Ceratopsian Dark Theme for Xfce
 
 Ceratopsian brings the graphite and muted blue-grey of the modified Debian 13 wallpaper to the Xfce desktop. It includes window borders, compact GTK controls, the Xfce window switcher and lock dialog, notifications, icons, cursors and an Xfce Terminal palette.
 
